@@ -1,23 +1,31 @@
 img {
     width: 150px;
     height: 150px;
-    border-radius: 75px;
+    border-radius: 50px;
+    border-style: solid;
+    border-color: rgb(0, 0, 0);
 }
 
 body {
-    background-color: rgb(110, 4, 160);
+    background: #a300cc;
+    background: linear-gradient(90deg, rgb(119, 5, 148) 0%, rgba(39, 0, 168, 1) 51%, rgb(12, 160, 98) 100%);
     font-family: 'Trebuchet MS';
     color: white;
     text-align: center;
 }
 
 a {
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(0, 0, 0);
     font-size: 20px;
     border-radius: 10px;
     padding: 10px;
     display: block;
     text-align: center;
     margin: 10px;
-    color: slateblue;
+    color: rgb(255, 255, 255);
+    border-style: solid;
+}
+
+.texto {
+    text-shadow: 3px 3px rgb(0, 0, 0);
 }
