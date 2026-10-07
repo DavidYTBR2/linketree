@@ -7,8 +7,7 @@ img {
 }
 
 body {
-    background: #a300cc;
-    background: linear-gradient(90deg, rgb(119, 5, 148) 0%, rgba(39, 0, 168, 1) 51%, rgb(12, 160, 98) 100%);
+    background-color: blue;
     font-family: 'Trebuchet MS';
     color: white;
     text-align: center;
